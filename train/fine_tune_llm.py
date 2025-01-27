@@ -1,3 +1,4 @@
+# Implementation of this file is based on: https://github.com/philschmid/llm-sagemaker-sample/blob/main/scripts/fsdp/run_fsdp_qlora.py
 from dataclasses import dataclass, field
 import os
 from typing import Optional

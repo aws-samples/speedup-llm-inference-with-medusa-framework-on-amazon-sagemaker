@@ -47,8 +47,14 @@ This library is licensed under the MIT-0 License. See the [LICENSE](LICENSE) fil
 
 ## Authors and acknowledgment
 
-Daniel Zagyva, zagyvad@amazon.com
+Daniel Zagyva
 
-Aleksandra Dokic, dokica@amazon.com
+Aleksandra Dokic
 
-Laurens van der Maas, laurensv@amazon.nl
+Laurens van der Maas
+
+Manos Stergiadis
+
+Moran Beladev
+
+Ilya Gusev
