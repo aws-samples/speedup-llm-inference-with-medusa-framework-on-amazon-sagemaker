@@ -13,7 +13,7 @@ We cover the following steps in this repository:
 5. Demonstrate LLM inference speedup: We compare average latencies between fine-tuned LLM and the fine-tuned LLM with Medusa heads.
 
 
-## Why using Medusa framework on Amazon SageMaker?
+## Why use the Medusa framework on Amazon SageMaker?
 
 Large Language Models generate text in a sequential manner, with each new token conditional on the previous ones.
 This process can be slow, and different techniques have been suggested to address these issues one of which is Medusa framework. 
@@ -31,7 +31,7 @@ For more details on and step-by-step instructions please refer to accompanying b
 
 In order to follow the instructions in this repository you will need to setup:
 - AWS account with [AWS Identity and Access Management (IAM) role](https://aws.amazon.com/iam/) with correct set of permissions
-- Your development environment with the right permissions to access AWS account. Alternative, Amazon SageMaker Studio domain in your AWS account)
+- Your development environment with the right permissions to access AWS account. Alternatively, use Amazon SageMaker Studio in your AWS account)
 
 For more details please refer to [TODO: add blog post link to the right chapter].
 
@@ -47,14 +47,9 @@ This library is licensed under the MIT-0 License. See the [LICENSE](LICENSE) fil
 
 ## Authors and acknowledgment
 
-Daniel Zagyva
-
-Aleksandra Dokic
-
-Laurens van der Maas
-
-Manos Stergiadis
-
-Moran Beladev
-
-Ilya Gusev
+* Daniel Zagyva
+* Aleksandra Dokic
+* Laurens van der Maas
+* Manos Stergiadis
+* Moran Beladev
+* Ilya Gusev
