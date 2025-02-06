@@ -1,4 +1,6 @@
-# Implementation of this file is based on: https://github.com/philschmid/llm-sagemaker-sample/blob/main/scripts/trl/run_sft.py
+# Implementation of this file is based on:
+# https://github.com/philschmid/llm-sagemaker-sample/blob/main/scripts/trl/run_sft.py
+
 from dataclasses import dataclass, field
 import os
 from typing import Optional

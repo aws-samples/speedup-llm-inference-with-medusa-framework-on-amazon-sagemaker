@@ -1,4 +1,7 @@
-# Implementation is based on: https://github.com/axolotl-ai-cloud/axolotl/compare/main...ctlllll:axolotl:main
+# Implementation is based on:
+# https://github.com/axolotl-ai-cloud/axolotl/compare/main...ctlllll:axolotl:main
+# https://github.com/FasterDecoding/Medusa
+# https://github.com/philschmid/llm-sagemaker-sample/blob/main/scripts/trl/run_sft.py
 import logging
 from typing import List, Optional
 import os
