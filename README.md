@@ -7,14 +7,6 @@ This repository is a modified version of the original [How to Fine-Tune LLMs in 
 
 For more details on and step-by-step instructions please refer to accompanying blog post: [Achieve ~2x speed-up in LLM inference with Medusa-1 on Amazon SageMaker AI](https://aws.amazon.com/blogs/machine-learning/achieve-2x-speed-up-in-llm-inference-with-medusa-1-on-amazon-sagemaker-ai/)
 
-We cover the following steps in this repository: 
-1. Load and prepare the dataset
-2. Fine-tune an LLM using a SageMaker AI training job
-3. Train Medusa heads on top of a frozen fine-tuned LLM using a SageMaker AI training job
-4. Deploy the fine-tuned LLM with Medusa heads on a SageMaker AI endpoint
-5. Demonstrate LLM inference speedup: We compare average latencies between fine-tuned LLM and the fine-tuned LLM with Medusa heads.
-
-
 ## Why use the Medusa framework on Amazon SageMaker AI?
 
 Large Language Models generate text in a sequential manner, with each new token conditional on the previous ones.
@@ -37,7 +29,14 @@ For more details please refer to the Prerequisites section of accompanying blog 
 
 ## Repository structure
 
-You can find data processing, fine-tuning, and evaluation code in `medusa_train.ipynb` notebook. In the `train` folder you can find the scripts that are run inside the SageMaker AI Training job such as fine tuning the LLM and training Medusa heads.
+You can find data processing, fine-tuning, and evaluation code in `medusa_1_train.ipynb` notebook. In the `train` folder you can find the scripts that are run inside the SageMaker AI Training job such as fine tuning the LLM and training Medusa heads.
+
+We cover the following steps in `medusa_1_train.ipynb` notebook: 
+1. Load and prepare the dataset
+2. Fine-tune an LLM using a SageMaker AI training job
+3. Train Medusa heads on top of a frozen fine-tuned LLM using a SageMaker AI training job
+4. Deploy the fine-tuned LLM with Medusa heads on a SageMaker AI endpoint
+5. Demonstrate LLM inference speedup: We compare average latencies between fine-tuned LLM and the fine-tuned LLM with Medusa heads.
 
 ## Security
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
