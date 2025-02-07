@@ -5,6 +5,8 @@ Acceleration Framework with Multiple Decoding Heads"](https://arxiv.org/abs/2401
 
 This repository is a modified version of the original [How to Fine-Tune LLMs in 2024 on Amazon SageMaker](https://github.com/philschmid/llm-sagemaker-sample/blob/main/notebooks/train-evalaute-llms-2024-trl.ipynb) example by [Philipp Schmid](https://www.philschmid.de/philipp-schmid). We added a simplified Medusa training code, adapted from the original [Medusa framework repository](https://github.com/FasterDecoding/Medusa).  We use a dataset called [sql-create-context](https://huggingface.co/datasets/b-mc2/sql-create-context), which contains samples of natural language instructions, schema definitions and the corresponding SQL query.
 
+For more details on and step-by-step instructions please refer to accompanying blog post: [Achieve ~2x speed-up in LLM inference with Medusa-1 on Amazon SageMaker AI](https://aws.amazon.com/blogs/machine-learning/achieve-2x-speed-up-in-llm-inference-with-medusa-1-on-amazon-sagemaker-ai/)
+
 We cover the following steps in this repository: 
 1. Load and prepare the dataset
 2. Fine-tune an LLM using a SageMaker AI training job
@@ -23,9 +25,7 @@ Amazon SageMaker AI provides a fully managed machine learning service that makes
 high-quality machine learning (ML) models. Running Medusa framework on Amazon SageMaker AI would allow you to quickly scale
 up your Medusa model training process as the service handles heavy lifting of infrastructure provisioning for you. 
 Furthermore, you can leverage Amazon SageMaker AI real-time endpoints with [Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference) container to run
-scalably your inference server with Medusa inference speed-ups. 
-
-For more details on and step-by-step instructions please refer to accompanying blog post [TODO: add link].
+scalably your inference server with Medusa inference speed-ups.
 
 ## Getting started
 
@@ -33,7 +33,7 @@ In order to follow the instructions in this repository you will need to setup:
 - AWS account with [AWS Identity and Access Management (IAM) role](https://aws.amazon.com/iam/) with correct set of permissions
 - Your development environment with the right permissions to access AWS account. Alternatively, use Amazon SageMaker Studio in your AWS account)
 
-For more details please refer to [TODO: add blog post link to the right chapter].
+For more details please refer to the Prerequisites section of accompanying blog post: [Achieve ~2x speed-up in LLM inference with Medusa-1 on Amazon SageMaker AI](https://aws.amazon.com/blogs/machine-learning/achieve-2x-speed-up-in-llm-inference-with-medusa-1-on-amazon-sagemaker-ai/)
 
 ## Repository structure
 
