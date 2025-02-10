@@ -5,7 +5,7 @@ Acceleration Framework with Multiple Decoding Heads"](https://arxiv.org/abs/2401
 
 This repository is a modified version of the original [How to Fine-Tune LLMs in 2024 on Amazon SageMaker](https://github.com/philschmid/llm-sagemaker-sample/blob/main/notebooks/train-evalaute-llms-2024-trl.ipynb) example by [Philipp Schmid](https://www.philschmid.de/philipp-schmid). We added a simplified Medusa training code, adapted from the original [Medusa framework repository](https://github.com/FasterDecoding/Medusa).  We use a dataset called [sql-create-context](https://huggingface.co/datasets/b-mc2/sql-create-context), which contains samples of natural language instructions, schema definitions and the corresponding SQL query.
 
-For more details on and step-by-step instructions please refer to accompanying blog post: [Achieve ~2x speed-up in LLM inference with Medusa-1 on Amazon SageMaker AI](https://aws.amazon.com/blogs/machine-learning/achieve-2x-speed-up-in-llm-inference-with-medusa-1-on-amazon-sagemaker-ai/)
+For more details and step-by-step instructions please refer to accompanying blog post: [Achieve ~2x speed-up in LLM inference with Medusa-1 on Amazon SageMaker AI](https://aws.amazon.com/blogs/machine-learning/achieve-2x-speed-up-in-llm-inference-with-medusa-1-on-amazon-sagemaker-ai/)
 
 ## Why use the Medusa framework on Amazon SageMaker AI?
 
@@ -14,7 +14,7 @@ This process can be slow, and different techniques have been suggested to addres
 The original paper authors report inference token generation speed-ups of up to 2x-3.6x depending on the framework version.
 
 Amazon SageMaker AI provides a fully managed machine learning service that makes it easy to build, train, and deploy 
-high-quality machine learning (ML) models. Running Medusa framework on Amazon SageMaker AI would allow you to quickly scale
+high-quality machine learning (ML) models. Running Medusa framework on Amazon SageMaker AI allows you to quickly scale
 up your Medusa model training process as the service handles heavy lifting of infrastructure provisioning for you. 
 Furthermore, you can leverage Amazon SageMaker AI real-time endpoints with [Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference) container to run
 scalably your inference server with Medusa inference speed-ups.
